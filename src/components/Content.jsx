@@ -14,7 +14,7 @@ export function Content() {
   const [citacao, setCitacao] = useState('')
   const [imagem, setImagem] = useState('')
   const [success, setSuccess] = useState(false)
-  const baseURL = 'https://back-end-peg2.onrender.com/mulheres'
+  const baseURL = 'http://back-end-peg2.onrender.com/mulheres'
 
   useEffect(() => {
     async function getData() {
